@@ -29,7 +29,7 @@ while True:
 
         mensaje_continuo = input(
             f"""Deseas continuar agregando personas?, (Si) para continuar y (No) para terminar
-            Te comparto las listas de alumnos segun su sexo ingresado con anterioridad:
+            Te comparto las listas de alumnos segun su sexo ingresados con anterioridad:
             Lista de hombres = {Hombres_grpB}
             Lista de Mujeres = {Mujeres_grpA} """)
 
