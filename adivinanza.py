@@ -7,7 +7,7 @@ while True:
 
 	if num_ing.lower() == "salir":
 		break
-	elif num_ing != "salir":
+	if num_ing != "salir":
 		num_ing = int(num_ing)
 
 	while True:
