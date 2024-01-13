@@ -4,11 +4,9 @@ password = 5962
 lst_password = []
 for numeros in str(password):
     (lst_password.append(numeros))
-# * aqui uso el metodo de map para poder aplicar la funcion de int a cada uno de los elementos de la lista creada
+# ! aqui uso el metodo de map para poder aplicar la funcion de int a cada uno de los elementos de la lista creada
 lst2_password = list(map(int, lst_password))
-# * aqui uso el metodo de map para poder aplicar la funcion de int a cada uno de los elementos de la lista creada
-# print(lst2_password)
-
+# ! aqui uso el metodo de map para poder aplicar la funcion de int a cada uno de los elementos de la lista creada
 
 def desencriptado(digito):
     while True:
@@ -18,7 +16,6 @@ def desencriptado(digito):
             return numero_aleatorio
         else:
             print(f"Numero erroneo: {numero_aleatorio}")
-        continue
 
 
 nip1 = desencriptado(0)
